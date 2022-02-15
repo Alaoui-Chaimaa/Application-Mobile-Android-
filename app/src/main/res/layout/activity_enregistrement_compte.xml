@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.controller.EnregistrementCompte"
+    android:background="@drawable/ph1"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DocFree"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre Compte a été crée. "
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#7c7c7c"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veuillez se connecter pour accéder à notre application.  "
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#7c7c7c"
+       ></TextView>
+    <Button
+        android:id="@+id/btn_connection"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Connexion"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:background="#fbfcd5"
+        android:layout_gravity="center"
+        android:textColor="#7c7c7c"></Button>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.controller.AjouterNvRdv"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ajouter Nouveau Rdv"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/nom_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Nom du Patient"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/user"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/tel_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Tél Patient"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/call"
+        android:inputType="textMultiLine" />
+
+
+    <EditText
+        android:id="@+id/medecin_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Nom du médecin consultant"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/doctor2"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/but_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="But De Consultation"
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/consultation"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/date_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Date De Consultation (JJ-MM-AAAA) "
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/date"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/heure_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Heure De Consultation (HH:MM) "
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/heure"
+        android:inputType="textMultiLine" />
+    <EditText
+        android:id="@+id/lieu_cons_p"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="Lieu De Consultation "
+        android:background="@drawable/round"
+        android:drawableLeft="@drawable/map"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/confirmer_ajout"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="confirmer"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        ></Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.controller.CalendrierModification"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DocFree"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Add TextView to display the date -->
+    <TextView
+        android:id="@+id/date_view_modify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="Set the Date"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="15dp"/>
+
+    <!-- Add CalenderView to display the Calender -->
+    <CalendarView
+        android:id="@+id/calendar_modify"
+        android:layout_marginLeft="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="15dp">
+    </CalendarView>
+    <Button
+        android:id="@+id/btn_confirmer_date"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:text="Confirmer"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:background=" #33b5e5"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"></Button>
+
+</LinearLayout>

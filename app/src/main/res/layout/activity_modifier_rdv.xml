@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.controller.ModifierRdv"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier Votre Rendez-vous"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="But De Consultation: "
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"></TextView>
+
+  <EditText
+      android:id="@+id/but_cons"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="15dp"></EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/date_cons"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Date De Consultation"
+            android:textSize="20sp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/ic_date_cons"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/right"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/heure_cons"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Heure De Consultation"
+            android:textSize="20sp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/ic_heure_cons"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/right"></ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/medecin"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:text="Médecin "
+            android:textSize="20sp"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/ic_medecin"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/right"></ImageView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_modifier_rdv"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Modifier"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"></Button>
+
+
+
+
+</LinearLayout>

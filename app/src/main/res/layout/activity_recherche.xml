@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b6"
+    tools:context=".test.controller.Recherche"
+    android:orientation="vertical"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DocFree"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Que Voulez-vous faire?"
+    android:textSize="30sp"
+    android:gravity="center"
+    android:layout_marginTop="110dp"
+    android:textColor="@android:color/white"
+    android:textStyle="bold"
+    ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chercher un médecin et prenez un nouveau rendez-vous."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        ></TextView>
+    <Button
+        android:id="@+id/btn_medecin"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Chercher Un médecin"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/screen_background_light_transparent"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consulter la liste de vous rendez-vous."
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        ></TextView>
+    <Button
+        android:id="@+id/btn_rendez_vous"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Consultation"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@android:drawable/screen_background_light_transparent">
+
+    </Button>
+
+
+</LinearLayout>

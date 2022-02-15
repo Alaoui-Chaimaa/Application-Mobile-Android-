@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test.controller.SearchingMedecin"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_list_medecins"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chercher Un Médecin "
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Recherche par Nom du Médecin"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchView"/>
+    <ListView android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:dividerHeight="10dp"
+        android:divider="#d1d1d1"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/listview"/>
+
+</LinearLayout>

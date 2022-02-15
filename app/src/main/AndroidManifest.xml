@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.allodoc">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icone"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".test.controller.ModificationRdvSecretaire"></activity>
+        <activity android:name=".test.controller.ModifierRdvSecretaire" />
+        <activity android:name=".test.controller.ListeSpecialites" />
+        <activity android:name=".test.controller.InterfaceAcceuil" />
+        <activity android:name=".test.controller.AjouterNvRdv" />
+        <activity android:name=".test.controller.AcceuilSecretaire" />
+        <activity android:name=".test.controller.ListRdvModify" />
+        <activity android:name=".test.controller.ListRdvSecretaire" />
+        <activity android:name=".test.controller.SecretaireConnection" />
+        <activity android:name=".test.controller.ModifierDoctor" />
+        <activity android:name=".test.controller.HeureModification" />
+        <activity android:name=".test.controller.CalendrierModification" />
+        <activity android:name=".test.controller.ModifierRdv" />
+        <activity android:name=".test.controller.ListRdvVide" />
+        <activity android:name=".test.controller.ListRdv" />
+        <activity android:name=".test.controller.EnregistrementCompte" />
+        <activity android:name=".test.controller.ModifySuccess" />
+        <activity android:name=".test.controller.DateDeConsultation" />
+        <activity android:name=".test.controller.ProfilPatient" />
+        <activity android:name=".test.controller.ProfilMedecin" />
+        <activity android:name=".test.controller.SearchingMedecin" />
+        <activity android:name=".test.controller.Recherche" />
+        <activity android:name=".test.controller.Verification" />
+        <activity android:name=".test.controller.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test.controller.NouveauCompte" />
+        <activity android:name=".test.controller.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.allodoc.test.controller.MainActivity"
+     android:background="@drawable/a1"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@android:color/holo_blue_dark"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DocFree"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            ></TextView>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="S'authentifier"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+         />
+
+    <EditText
+        android:id="@+id/num_tel"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/call"
+        android:hint="Numéro de Téléphone"
+        android:background="#E0FFFF"
+        />
+
+    <EditText
+        android:id="@+id/mot_de_passe"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Mot de passe"
+        android:background="#E0FFFF"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_connexion"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="connexion"
+        android:textColor="#09A0C1"
+        android:background="#E0FFFF"
+        />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Nouveau sur DocFree? Veuillez s'inscrire!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <Button
+        android:id="@+id/btn_inscription"
+        android:layout_width="247dp"
+        android:layout_height="65dp"
+        android:layout_weight="0"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="INSCRIPTION"
+        android:textColor="#09A0C1"
+        android:background="#E0FFFF"/>
+
+
+</LinearLayout>
